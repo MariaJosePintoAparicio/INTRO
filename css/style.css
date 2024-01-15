@@ -1,0 +1,31 @@
+*{
+    color: rgb(0, 0, 0);
+
+}
+h2{ 
+    /*APLICAR ESTILOS A ETIQUETAS*/
+    color:rgb(5, 255, 201) ;
+}
+.titulo{
+    /*COLOR DE TEXTO*/
+    color: rgb(162, 0, 255);
+    /*TIPO DE FUENTE*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*ESTILO DE ETIQUETA*/
+    font-style: italic;
+    text-align: center;
+}
+.subtitulo{
+
+    color: rgb(7, 250, 169);
+}
+div{
+    /*FONDO DE TEXTO*/
+    background-color: rgb(167, 128, 204);
+    /*ANCHO DE ALGO*/
+    width: 300px;
+    /*MARGEN INTERNA DEL CONTENIDO Y EL CONTENEDOR*/
+    padding: 10px;
+    /*JUSTIFICAR TEXTO*/
+    text-align: justify;
+}

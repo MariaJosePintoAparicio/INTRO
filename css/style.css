@@ -20,6 +20,8 @@ h2{
     color: rgb(7, 250, 169);
 }
 div{
+    /*PARA CENTRAR TITULO O TEXTO*/
+    margin: 0 auto;
     /*FONDO DE TEXTO*/
     background-color: rgb(167, 128, 204);
     /*ANCHO DE ALGO*/
@@ -28,4 +30,13 @@ div{
     padding: 10px;
     /*JUSTIFICAR TEXTO*/
     text-align: justify;
+    /*BORDE*/    
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blueviolet;
+    /*permite asignar la póscion de la sombra*/
+    box-shadow: 5px 12px  #1e80ff
+
+
 }

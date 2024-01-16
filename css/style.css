@@ -1,7 +1,23 @@
 *{
     color: rgb(0, 0, 0);
-
+    /*se vuelve  mas legible en tema de acecivilidad*/
+    font-size: rem;
 }
+a{  
+    margin-top: 20px;
+    padding: 10px;
+    /*quoitar linea de enlace debajo de el link */
+    text-decoration:none ;
+    /*color de fondo en el link */
+    background-color: hwb(273 24% 52%);
+}
+a :hover{ 
+    border: 5px dotted hwb(69 10% 7%);
+    background-color: rgb(19, 14, 90);
+
+         
+}
+          
 h2{ 
     /*APLICAR ESTILOS A ETIQUETAS*/
     color:rgb(5, 255, 201) ;
@@ -13,6 +29,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     /*ESTILO DE ETIQUETA*/
     font-style: italic;
+    /*ALINEACION DE TEXTO*/
     text-align: center;
 }
 .subtitulo{
@@ -39,4 +56,8 @@ div{
     box-shadow: 5px 12px  #1e80ff
 
 
+}   
+
+small {
+    font-size: 0.67rem;
 }

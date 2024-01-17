@@ -58,6 +58,40 @@ div{
 
 }   
 
+
 small {
     font-size: 0.67rem;
+}
+table{
+    width:100% ;
+    border:3px dotted #8146b1;
+    box-shadow:10px 10px 5px 0px #1e80ff;
+
+}
+table , td ,th{
+    border:  1px solid black ;
+}
+   
+
+table, th{
+    border: 1px solid rgb(0, 255, 149);
+}
+tr  :hover {
+
+
+
+
+    
+    background-color: rgb(48, 178, 201);
+}
+table tr:nth-child(odd) {
+   background : #ae62bd;
+}
+table tr :nth-child(even) {
+   background:  #8146b1;        
+}
+
+table, th, td {
+    border: 1px solid black ;
+    border-collapse: collapse;
 }
